@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(6, 60, 73);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1{
+    text-align: center;
+    color: greenyellow;
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+#add-tier{
+    margin: 0 auto;
+    padding: 12px 24px;
+    width: max-content;
+    color: white;
+    border: solid 2px greenyellow;
+    border-radius: 12px;
+    transition: 250ms;
+}
+#add-tier:hover{
+    cursor:pointer;
+    box-shadow: 0 0 8px greenyellow;
+}
+.container{
+    margin: 12px 92px;
+    
+    
+}
+hr{
+    margin: 0;
+    color: black;
+}
+.tier{
+    min-height: 90px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.tier-name{
+    width: 100px;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 12px gray;
+    
+    }
+#tier-items{
+  flex-grow: 2;
+  box-shadow: 1px 1px 2px gray;
+  padding: 2px 8px;
+}
+input{
+    width: 100%;
+    height: 100%;
+    padding: 0; 
+    font-size: 26px;
+    text-align: center;
+    color: black;
+    outline: none;
+    border: none;
+    
+}
+button{
+    border: none;
+    background-color: rgb(200, 200, 201);
+    transition: 250ms;
+}
+button:hover{
+    background-color: white;
+    box-shadow: 0 0 4px #fff;
+    cursor: pointer;
+}
+#icon{
+    font-size: 28px;
+    pointer-events: none;
+}
+#img-container{
+    padding: 12px ;
+    display: flex;
+    gap: 8px;
+    margin:0px 92px;
+    border :solid greenyellow;
+    min-height: 100px;
+    flex-wrap: wrap;
+    border-radius: 16px;
+}
+img{
+    margin: 0 4px;
+    border-radius: 8px;
+    height: 90px;
+    width: 110px;
+}
+#file-upload{
+    margin: 4px 92px;
+     
+    font-size: 24px;
+    width: max-content;
+    height: max-content;
+    background-color: white;
+}
